@@ -1,3 +1,7 @@
+path=("$HOME/bin" $path)
+# export to sub-processes (make it inherited by child processes)
+export PATH
+
 # Load Antigen
 source "/usr/local/share/antigen.zsh"
 
