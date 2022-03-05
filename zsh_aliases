@@ -1,0 +1,6 @@
+#!/bin/bash -eu
+
+alias zshconfig-update="cd ~/Code/zsh-config && git pull -r origin master && cd -"
+alias sfs="symfony server:start"
+alias sfsd="symfony server:start -d"
+alias sfsl="symfony server:log"
