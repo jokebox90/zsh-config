@@ -5,6 +5,7 @@ mkdir -p ~/Code/lib
 curl -L git.io/antigen > ~/Code/lib/antigen.zsh
 chmod +x ~/Code/lib/antigen.zsh
 
+rm -rf  ~/Code/lib/zsh
 git clone https://github.com/jokebox90/zsh-config.git ~/Code/lib/zsh
 
 ln -sf ~/Code/lib/zsh/antigenrc ~/.antigenrc

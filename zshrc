@@ -14,7 +14,7 @@ if [[ -d ~/.nodenv/bin ]]; then
 fi
 
 # Load Antigen
-source "/usr/local/share/antigen.zsh"
+source ~/Code/lib/antigen.zsh
 
 # Load Antigen configurations
 antigen init ~/.antigenrc
