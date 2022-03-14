@@ -12,4 +12,7 @@ mkdir -p "$(nodenv root)"/plugins
 git clone https://github.com/nodenv/node-build.git "$(nodenv root)"/plugins/node-build
 
 node_version=16
-nodenv install "$(nodenv install -l | egrep ^$node_version | tail -n 1)"
+node_selected="$(nodenv install -l | egrep ^$node_version | tail -n 1)"
+
+nodenv install "$node_selected"
+nodenv global "$node_selected"
