@@ -10,3 +10,5 @@ git clone https://github.com/jokebox90/zsh-config.git ~/Code/lib/zsh
 ln -sf ~/Code/lib/zsh/antigenrc ~/.antigenrc
 ln -sf ~/Code/lib/zsh/zsh_aliases ~/.zsh_aliases
 ln -sf ~/Code/lib/zsh/zshrc ~/.zshrc
+
+source ~/.zshrc
