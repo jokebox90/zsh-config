@@ -6,6 +6,13 @@ if [[ -f ~/.zsh_aliases ]]; then
   source ~/.zsh_aliases
 fi
 
+if [[ -d ~/.nodenv/bin ]]; then
+  path=("$HOME/.nodenv/bin" $path)
+  export PATH
+
+  eval "$(nodenv init -)"
+fi
+
 # Load Antigen
 source "/usr/local/share/antigen.zsh"
 
